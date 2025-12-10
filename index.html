@@ -158,7 +158,7 @@
       font-weight: bold;
     }
 
-    /* ================= FOOTER ================= */
+    /* ================= FOOTER (FIXED) ================= */
     footer {
       margin-top: 100px;
       background-color: #2b1f15;
@@ -168,6 +168,10 @@
       font-size: 11px;
       letter-spacing: 0.12em;
       line-height: 1.8;
+
+      /* ✅ full-width footer */
+      margin-left: calc(50% - 50vw);
+      margin-right: calc(50% - 50vw);
     }
 
     footer p {
@@ -191,11 +195,11 @@
     <h1>CURATED FRAMES</h1>
 
     <div class="poster-strip">
-      <img src="deapoets.jpg" alt="Dead Poets Society movie poster" class="p1">
-      <img src="lalalaand.png" alt="La La Land movie poster" class="p2">
-      <img src="sunshine.jpg" alt="Eternal Sunshine of the Spotless Mind movie poster" class="p3">
-      <img src="whiplash.jpg" alt="Whiplash movie poster" class="p4">
-      <img src="littlewomen.jpg" alt="Little Women movie poster" class="p5">
+      <img src="deapoets.jpg" class="p1">
+      <img src="lalalaand.png" class="p2">
+      <img src="sunshine.jpg" class="p3">
+      <img src="whiplash.jpg" class="p4">
+      <img src="littlewomen.jpg" class="p5">
     </div>
 
     <div class="film-strip">
@@ -204,11 +208,9 @@
 
     <div class="intro">
       <p>
-  <b>Welcome to Curated Frames</b><br>
+        <b>Welcome to Curated Frames</b><br>
         A personal space designed to collect,
         organize, and reflect on the films that shape how we see the world.
-        This project treats movies not as content to scroll past, but as
-        artifacts worth revisiting, ranking, and remembering.
       </p>
     </div>
 
@@ -217,42 +219,20 @@
 
       <div class="scope-grid">
         <div>
-          <div class="feature">
-            <strong>Curated Lists</strong>
-            Build intentional collections instead of endless watchlists.
-          </div>
-          <div class="feature">
-            <strong>Cinematic Perspective</strong>
-            Treat each film as part of a broader visual language.
-          </div>
-          <div class="feature">
-            <strong>Personal Archive</strong>
-            Create a lasting record of what moved you and why.
-          </div>
+          <div class="feature"><strong>Curated Lists</strong>Build intentional collections.</div>
+          <div class="feature"><strong>Cinematic Perspective</strong>Visual language.</div>
+          <div class="feature"><strong>Personal Archive</strong>Film memory.</div>
         </div>
-
         <div>
-          <img src="punchdrunk.jpg" alt="Punch-Drunk Love movie poster">
+          <img src="punchdrunk.jpg">
         </div>
       </div>
 
       <table>
-        <tr>
-          <th>Feature</th>
-          <th>Description</th>
-        </tr>
-        <tr>
-          <td>Lists</td>
-          <td>Organized film collections</td>
-        </tr>
-        <tr>
-          <td>Reviews</td>
-          <td>Short reflections per film</td>
-        </tr>
-        <tr>
-          <td>Archive</td>
-          <td>Personal cinema history</td>
-        </tr>
+        <tr><th>Feature</th><th>Description</th></tr>
+        <tr><td>Lists</td><td>Organized film collections</td></tr>
+        <tr><td>Reviews</td><td>Short reflections per film</td></tr>
+        <tr><td>Archive</td><td>Personal cinema history</td></tr>
       </table>
     </div>
 
@@ -267,8 +247,7 @@
         PG · FOLLOW US @CURATEDFRAMES
       </p>
       <p>
-        © 2025 CURATED FRAMES. ALL RIGHTS RESERVED<br>
-        UNAUTHORIZED DUPLICATION OR DISTRIBUTION IS STRICTLY PROHIBITED
+        © 2025 CURATED FRAMES. ALL RIGHTS RESERVED
       </p>
     </footer>
 
