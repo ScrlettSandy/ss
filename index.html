@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <title>Curated Frames</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #efe4d3;
+      font-family: "Inter", sans-serif;
+      color: #2b1f15;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2b1f15;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    nav a:hover {
+      color: #a55a2a;
+    }
+
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: 64px;
+      text-align: center;
+      letter-spacing: 0.15em;
+      margin-bottom: 50px;
+      color: #ffffff;
+    }
+
+    .poster-strip {
+      position: relative;
+      height: 260px;
+      margin-bottom: 80px;
+    }
+
+    .poster-strip img {
+      position: absolute;
+      width: 160px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+      transition: transform 0.3s;
+    }
+
+    .poster-strip img:hover {
+      transform: translateY(-6px);
+    }
+
+    .p1 { left: 0; transform: rotate(-4deg); }
+    .p2 { left: 180px; transform: rotate(2deg); }
+    .p3 { left: 360px; transform: rotate(-2deg); }
+    .p4 { left: 540px; transform: rotate(3deg); }
+    .p5 { left: 720px; transform: rotate(-1deg); }
+
+    .film-strip {
+      background-color: #8b3e1f;
+      color: #f8f1e8;
+      text-align: center;
+      padding: 20px;
+      margin: 60px 0;
+      letter-spacing: 0.1em;
+    }
+
+    .intro {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 80px;
+    }
+
+    .scope {
+      background-color: #3a2315;
+      color: #f8f1e8;
+      padding: 60px 40px;
+    }
+
+    .scope h2 {
+      font-family: "Playfair Display", serif;
+      font-size: 42px;
+      margin-bottom: 30px;
+    }
+
+    .scope-grid {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      gap: 40px;
+    }
+
+    .feature {
+      margin-bottom: 20px;
+    }
+
+    .feature strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .scope img {
+      width: 100%;
+      transform: rotate(-2deg);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 40px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0d8c0;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 80px;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <nav>
+      <ul>
+        <li><a href="#intro">About</a></li>
+        <li><a href="#scope">The Scope</a></li>
+        <li><a href="https://letterboxd.com" target="_blank">Letterboxd</a></li>
+        <li><a href="mailto:ssandy@uwaterloo.ca">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>CURATED FRAMES</h1>
+
+    <div class="poster-strip">
+      <img src="deapoets.jpg" alt="Dead Poets Society movie poster" class="p1">
+      <img src="lalaland.jpg" alt="La La Land movie poster" class="p2">
+      <img src="sunshine.jpg" alt="Eternal Sunshine of the Spotless Mind movie poster" class="p3">
+      <img src="whiplash.jpg" alt="Whiplash movie poster" class="p4">
+      <img src="perks of being.jpg" alt="The Perks of Being a Wallflower movie poster" class="p5">
+    </div>
+
+    <div class="film-strip">
+      CINEMA, CURATED BY YOU
+    </div>
+
+    <div class="intro" id="intro">
+      <p>
+        Welcome to Curated Frames — a personal space designed to collect,
+        organize, and reflect on the films that shape how we see the world.
+        This project treats movies not as content to scroll past, but as
+        artifacts worth revisiting, ranking, and remembering.
+      </p>
+    </div>
+
+    <div class="scope" id="scope">
+      <h2>The Scope</h2>
+
+      <div class="scope-grid">
+        <div>
+          <div class="feature">
+            <strong>Curated Lists</strong>
+            Build intentional collections instead of endless watchlists.
+          </div>
+          <div class="feature">
+            <strong>Cinematic Perspective</strong>
+            Treat each film as part of a broader visual language.
+          </div>
+          <div class="feature">
+            <strong>Personal Archive</strong>
+            Create a lasting record of what moved you and why.
+          </div>
+        </div>
+
+        <div>
+          <img src="punchdrunk.jpg" alt="Punch-Drunk Love movie poster">
+        </div>
+      </div>
+
+      <table>
+        <tr>
+          <th>Feature</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Lists</td>
+          <td>Organized film collections</td>
+        </tr>
+        <tr>
+          <td>Reviews</td>
+          <td>Short reflections per film</td>
+        </tr>
+        <tr>
+          <td>Archive</td>
+          <td>Personal cinema history</td>
+        </tr>
+      </table>
+    </div>
+
+    <footer>
+      A CURATED FRAMES WEBSITE<br>
+      EXECUTIVE DESIGNER: SCARLETT SANDY<br>
+      © 2025 CURATED FRAMES
+    </footer>
+
+  </div>
+
+</body>
+</html>
