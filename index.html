@@ -28,6 +28,7 @@
       padding: 40px 20px;
     }
 
+    /* ================= NAV ================= */
     nav ul {
       list-style: none;
       text-align: center;
@@ -36,7 +37,7 @@
 
     nav li {
       display: inline;
-      margin-right: 20px;
+      margin-right: 30px;
     }
 
     nav a {
@@ -50,19 +51,22 @@
       color: #a55a2a;
     }
 
+    /* ================= HERO ================= */
     h1 {
       font-family: "Playfair Display", serif;
       font-size: 64px;
       text-align: center;
       letter-spacing: 0.15em;
       margin-bottom: 50px;
-      color: #ffffff;
+      color: #2b1f15;
     }
 
+    /* ================= POSTER STRIP ================= */
     .poster-strip {
       position: relative;
+      width: 880px;
       height: 260px;
-      margin-bottom: 80px;
+      margin: 0 auto 80px auto;
     }
 
     .poster-strip img {
@@ -82,23 +86,27 @@
     .p4 { left: 540px; transform: rotate(3deg); }
     .p5 { left: 720px; transform: rotate(-1deg); }
 
+    /* ================= FILM STRIP ================= */
     .film-strip {
+      width: 600px;
+      margin: 60px auto;
       background-color: #8b3e1f;
       color: #f8f1e8;
       text-align: center;
-      padding: 20px;
-      margin: 60px 0;
+      padding: 18px;
       letter-spacing: 0.1em;
     }
 
+    /* ================= INTRO ================= */
     .intro {
       max-width: 700px;
-      margin: 0 auto;
+      margin: 0 auto 80px auto;
       font-size: 16px;
       line-height: 1.7;
-      margin-bottom: 80px;
+      text-align: center;
     }
 
+    /* ================= SCOPE ================= */
     .scope {
       background-color: #3a2315;
       color: #f8f1e8;
@@ -131,6 +139,7 @@
       transform: rotate(-2deg);
     }
 
+    /* ================= TABLE ================= */
     table {
       width: 100%;
       border-collapse: collapse;
@@ -144,14 +153,25 @@
     }
 
     th {
-      background-color: #f0d8c0;
+      background-color: #d8bfa4;
+      color: #2b1f15;
+      font-weight: bold;
     }
 
+    /* ================= FOOTER ================= */
     footer {
+      margin-top: 100px;
+      background-color: #2b1f15;
+      color: #efe4d3;
+      padding: 30px 20px;
       text-align: center;
-      font-size: 12px;
-      margin-top: 80px;
-      letter-spacing: 1px;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      line-height: 1.8;
+    }
+
+    footer p {
+      margin-bottom: 12px;
     }
   </style>
 </head>
@@ -162,10 +182,9 @@
 
     <nav>
       <ul>
-        <li><a href="#intro">About</a></li>
-        <li><a href="#scope">The Scope</a></li>
-        <li><a href="https://letterboxd.com" target="_blank">Letterboxd</a></li>
-        <li><a href="mailto:ssandy@uwaterloo.ca">Contact</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Top Ratings</a></li>
+        <li><a href="#">My Account</a></li>
       </ul>
     </nav>
 
@@ -173,26 +192,27 @@
 
     <div class="poster-strip">
       <img src="deapoets.jpg" alt="Dead Poets Society movie poster" class="p1">
-      <img src="lalaland.jpg" alt="La La Land movie poster" class="p2">
+      <img src="lalalaand.png" alt="La La Land movie poster" class="p2">
       <img src="sunshine.jpg" alt="Eternal Sunshine of the Spotless Mind movie poster" class="p3">
       <img src="whiplash.jpg" alt="Whiplash movie poster" class="p4">
-      <img src="littlewomen.jpg" alt="The Perks of Being a Wallflower movie poster" class="p5">
+      <img src="littlewomen.jpg" alt="Little Women movie poster" class="p5">
     </div>
 
     <div class="film-strip">
       CINEMA, CURATED BY YOU
     </div>
 
-    <div class="intro" id="intro">
+    <div class="intro">
       <p>
-        Welcome to Curated Frames — a personal space designed to collect,
+  <b>Welcome to Curated Frames</b><br>
+        A personal space designed to collect,
         organize, and reflect on the films that shape how we see the world.
         This project treats movies not as content to scroll past, but as
         artifacts worth revisiting, ranking, and remembering.
       </p>
     </div>
 
-    <div class="scope" id="scope">
+    <div class="scope">
       <h2>The Scope</h2>
 
       <div class="scope-grid">
@@ -212,7 +232,7 @@
         </div>
 
         <div>
-         <img src="punchdrunk.jpg" alt="Punch-Drunk Love movie poster">
+          <img src="punchdrunk.jpg" alt="Punch-Drunk Love movie poster">
         </div>
       </div>
 
@@ -237,9 +257,19 @@
     </div>
 
     <footer>
-      A CURATED FRAMES WEBSITE<br>
-      EXECUTIVE DESIGNER: SCARLETT SANDY<br>
-      © 2025 CURATED FRAMES
+      <p>
+        A CURATED FRAMES WEBSITE CREATED BY SCARLETT SANDY<br>
+        EXECUTIVE DESIGNER SCARLETT SANDY · ART DIRECTION CURATED FRAMES STUDIO<br>
+        WEB DEVELOPMENT THE CURATED FRAMES TEAM
+      </p>
+      <p>
+        CONTACT · INFO@CURATEDFRAMES.COM<br>
+        PG · FOLLOW US @CURATEDFRAMES
+      </p>
+      <p>
+        © 2025 CURATED FRAMES. ALL RIGHTS RESERVED<br>
+        UNAUTHORIZED DUPLICATION OR DISTRIBUTION IS STRICTLY PROHIBITED
+      </p>
     </footer>
 
   </div>
