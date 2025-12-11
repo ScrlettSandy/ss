@@ -25,10 +25,9 @@
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 40px 20px;
+      padding: 40px 20px 0;
     }
 
-    /* ================= NAV ================= */
     nav ul {
       list-style: none;
       text-align: center;
@@ -51,17 +50,14 @@
       color: #a55a2a;
     }
 
-    /* ================= HERO ================= */
     h1 {
       font-family: "Playfair Display", serif;
       font-size: 64px;
       text-align: center;
       letter-spacing: 0.15em;
       margin-bottom: 50px;
-      color: #2b1f15;
     }
 
-    /* ================= POSTER STRIP ================= */
     .poster-strip {
       position: relative;
       width: 880px;
@@ -86,7 +82,6 @@
     .p4 { left: 540px; transform: rotate(3deg); }
     .p5 { left: 720px; transform: rotate(-1deg); }
 
-    /* ================= FILM STRIP ================= */
     .film-strip {
       width: 600px;
       margin: 60px auto;
@@ -97,7 +92,6 @@
       letter-spacing: 0.1em;
     }
 
-    /* ================= INTRO ================= */
     .intro {
       max-width: 700px;
       margin: 0 auto 80px auto;
@@ -106,7 +100,6 @@
       text-align: center;
     }
 
-    /* ================= SCOPE ================= */
     .scope {
       background-color: #3a2315;
       color: #f8f1e8;
@@ -139,7 +132,6 @@
       transform: rotate(-2deg);
     }
 
-    /* ================= TABLE ================= */
     table {
       width: 100%;
       border-collapse: collapse;
@@ -155,12 +147,9 @@
     th {
       background-color: #d8bfa4;
       color: #2b1f15;
-      font-weight: bold;
     }
 
-    /* ================= FOOTER (FIXED) ================= */
     footer {
-      margin-top: 100px;
       background-color: #2b1f15;
       color: #efe4d3;
       padding: 30px 20px;
@@ -168,10 +157,6 @@
       font-size: 11px;
       letter-spacing: 0.12em;
       line-height: 1.8;
-
-      /* ✅ full-width footer */
-      margin-left: calc(50% - 50vw);
-      margin-right: calc(50% - 50vw);
     }
 
     footer p {
@@ -195,22 +180,19 @@
     <h1>CURATED FRAMES</h1>
 
     <div class="poster-strip">
-      <img src="deapoets.jpg" class="p1">
-      <img src="lalalaand.png" class="p2">
-      <img src="sunshine.jpg" class="p3">
-      <img src="whiplash.jpg" class="p4">
-      <img src="littlewomen.jpg" class="p5">
+      <img src="deapoets.jpg" alt="Dead Poets Society poster" class="p1">
+      <img src="lalalaand.png" alt="La La Land poster" class="p2">
+      <img src="sunshine.jpg" alt="Eternal Sunshine of the Spotless Mind poster" class="p3">
+      <img src="whiplash.jpg" alt="Whiplash poster" class="p4">
+      <img src="littlewomen.jpg" alt="Little Women poster" class="p5">
     </div>
 
-    <div class="film-strip">
-      CINEMA, CURATED BY YOU
-    </div>
+    <div class="film-strip">CINEMA, CURATED BY YOU</div>
 
     <div class="intro">
       <p>
-        <b>Welcome to Curated Frames</b><br>
-        A personal space designed to collect,
-        organize, and reflect on the films that shape how we see the world.
+        <strong>Welcome to Curated Frames</strong><br>
+        A personal space designed to collect, organize, and reflect on the films that shape how we see the world.
       </p>
     </div>
 
@@ -220,38 +202,38 @@
       <div class="scope-grid">
         <div>
           <div class="feature"><strong>Curated Lists</strong>Build intentional collections.</div>
-          <div class="feature"><strong>Cinematic Perspective</strong>Visual language.</div>
-          <div class="feature"><strong>Personal Archive</strong>Film memory.</div>
+          <div class="feature"><strong>Cinematic Perspective</strong>Films as visual language.</div>
+          <div class="feature"><strong>Personal Archive</strong>A record of what moved you.</div>
         </div>
         <div>
-          <img src="punchdrunk.jpg">
+          <img src="punchdrunk.jpg" alt="Punch-Drunk Love poster">
         </div>
       </div>
 
       <table>
         <tr><th>Feature</th><th>Description</th></tr>
         <tr><td>Lists</td><td>Organized film collections</td></tr>
-        <tr><td>Reviews</td><td>Short reflections per film</td></tr>
+        <tr><td>Reviews</td><td>Short reflections</td></tr>
         <tr><td>Archive</td><td>Personal cinema history</td></tr>
       </table>
     </div>
 
-    <footer>
-      <p>
-        A CURATED FRAMES WEBSITE CREATED BY SCARLETT SANDY<br>
-        EXECUTIVE DESIGNER SCARLETT SANDY · ART DIRECTION CURATED FRAMES STUDIO<br>
-        WEB DEVELOPMENT THE CURATED FRAMES TEAM
-      </p>
-      <p>
-        CONTACT · INFO@CURATEDFRAMES.COM<br>
-        PG · FOLLOW US @CURATEDFRAMES
-      </p>
-      <p>
-        © 2025 CURATED FRAMES. ALL RIGHTS RESERVED
-      </p>
-    </footer>
-
   </div>
+  <footer>
+    <p>
+      A CURATED FRAMES WEBSITE CREATED BY SCARLETT SANDY<br>
+      EXECUTIVE DESIGNER SCARLETT SANDY · ART DIRECTION CURATED FRAMES STUDIO<br>
+      WEB DEVELOPMENT THE CURATED FRAMES TEAM
+    </p>
+    <p>
+      CONTACT · INFO@CURATEDFRAMES.COM<br>
+      PG · FOLLOW US @CURATEDFRAMES
+    </p>
+    <p>
+      © 2025 CURATED FRAMES. ALL RIGHTS RESERVED<br>
+      UNAUTHORIZED DUPLICATION OR DISTRIBUTION IS STRICTLY PROHIBITED
+    </p>
+  </footer>
 
 </body>
 </html>
